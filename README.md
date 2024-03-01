@@ -25,7 +25,7 @@ scikit-learn: For machine learning algorithms and tools.
 Usage
 
 _Clone the repository:_
-git clone https://github.com/aman-singhsm01/sonar-classification.git
+git clone https://github.com/aman-singhsm01/sonar-classification](https://github.com/aman-singhsm01/Sonar_Data-Classification-with-Logistic_Regression).git
 
 _Install the dependencies:_
 pip install numpy pandas scikit-learn

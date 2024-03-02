@@ -1,37 +1,29 @@
 # Sonar_Data-Classification-with-Logistic_Regression
-**Sonar Data Classification with Logistic Regression**
-This project utilizes logistic regression to classify sonar signals as either rocks (R) or mines (M) based on various features. The dataset used in this project is available as sonar_data.csv.
+# Sonar Data Classification with Logistic Regression
 
-**Table of Contents**
-Introduction
-Project Structure
-Dependencies
-Usage
-Results
-Contributing
+This project utilizes logistic regression to classify sonar signals as either rocks (R) or mines (M) based on various features. The dataset used in this project is available as `sonar_data.csv`.
 
-_Introduction_
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Project Structure](#project-structure)
+3. [Dependencies](#dependencies)
+4. [Usage](#usage)
+5. [Results](#results)
+6. [Contributing](#contributing)
+
+## Introduction
 Sonar data classification is a classic machine learning problem where the goal is to differentiate between objects (in this case, rocks and mines) based on sonar signals. Logistic regression is employed as a classification algorithm due to its simplicity and effectiveness in binary classification tasks.
 
-_Project Structure_
-README.md: The file you're currently reading, providing an overview of the project.
-sonar_data.csv: Dataset containing sonar signal features and corresponding labels (R for rocks, M for mines).
-sonar_classification.py: Python script containing the code for data preprocessing, model training, and inference.
+## Project Structure
+- `README.md`: The file you're currently reading, providing an overview of the project.
+- `sonar_data.csv`: Dataset containing sonar signal features and corresponding labels (R for rocks, M for mines).
+- `sonar_classification.py`: Python script containing the code for data preprocessing, model training, and inference.
 
-_Dependencies_
-numpy: For numerical computations and array manipulations.
-pandas: For data manipulation and analysis.
-scikit-learn: For machine learning algorithms and tools.
-Usage
+## Dependencies
+- `numpy`: For numerical computations and array manipulations.
+- `pandas`: For data manipulation and analysis.
+- `scikit-learn`: For machine learning algorithms and tools.
 
-_Clone the repository:_
-https://github.com/aman-singhsm01/Sonar_Data-Classification-with-Logistic_Regression/tree/main
-
-_Install the dependencies:_
-pip install numpy pandas scikit-learn
-
-Results
-After training the logistic regression model on the sonar data, we achieved the following results:
 
 Training Data Accuracy: 83%
 Test Data Accuracy: 76%
